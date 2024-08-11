@@ -13,6 +13,8 @@ contributes:
       template-partials:
         - before-body.tex
       fontsize: 10pt
+      mainfont: "Atkinson Hyperlegible"
+      monofont: "Fira Code"
       margin-top: 0.2in
       margin-left: 0.8in
       margin-right: 0.8in
