@@ -1,0 +1,21 @@
+title: LMLquiz
+author: drdeception
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf:
+      include-in-header:
+        - text: |
+            \usepackage{multicol}
+            \usepackage{tikz}
+      documentclass: exam
+      template-partials:
+        - before-body.tex
+      fontsize: 10pt
+      margin-top: 0.2in
+      margin-left: 0.8in
+      margin-right: 0.8in
+      margin-bottom: 0.3in
+      filters:
+        - LMLquiz.lua
